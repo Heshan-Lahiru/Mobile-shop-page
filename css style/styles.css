@@ -1,0 +1,106 @@
+
+body {
+            background-image: url('images/360_F_224645618_dtpq1bEjnN67g3gampm39hg698AUC9tf.jpg');
+
+            background-size: cover;
+
+            background-position: center center;
+
+            background-attachment: fixed;
+
+            background-color: #f0f0f0;
+        }
+		
+	.line-break {
+    height: 2px; 
+    background-color: #000;
+    margin: 10px 0; 
+	
+  }
+		
+		
+		
+.logo{
+	align:center;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+	 
+	
+}
+
+
+
+
+.font{
+	font-family:italic;
+	font-size:16px;
+	
+}
+@keyframes moveLetters {
+    50% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+   100% {
+      transform: translateX(0);
+    }
+  }
+
+  .moving-letters {
+    animation: moveLetters 3s linear infinite;
+  }
+  .horizontalline{
+	  border: none; 
+    height: 3px;
+    background-color: black; 
+  }
+  
+  .horizontal-text {
+    list-style: none;
+    display: flex;
+    background-color: lightgray; 
+    padding: 10px;
+    gap: 20px;	
+}
+.horizontal-menu li {
+    margin-right: 10px;
+}
+
+.horizontal-menu li {
+    margin-right: 10px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.table-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+		
+.productData{
+	background-color: white;
+	
+}
+
+.left-align tr td:first-child {
+    text-align: left;
+}
+
+.pspace {
+	display: flex;
+}
+.pname{
+	align=center;
+}
+
+
+
+
+

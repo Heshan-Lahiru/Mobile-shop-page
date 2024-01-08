@@ -1,0 +1,54 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP4 Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000; /* Fallback background color */
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Put the video behind the content */
+        }
+		body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        img {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="images/sea_-_33194 (1440p).mp4" type="video/mp4">
+    </video>
+
+    
+    <div class="content"><hr>
+        <h1 align="center">Apple Store</h1><hr>
+        <p></p>
+    </div>
+	
+	<img class="logo" border="3" src="images/1685279753620.png" height="200" width="400">
+
+</body>
+</html>
